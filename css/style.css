@@ -1,0 +1,174 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.col {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
+/*hero and hero background pics styles*/
+
+.my-hero {
+	max-width: 2000px;
+	height: 900px;
+	background-color: #2ecc71;
+}
+
+.backround-pictures {
+	position: relative;
+}
+
+.backround-pictures img:first-of-type {
+	position: absolute;
+	top: 150px;
+}
+
+.backround-pictures img:nth-of-type(2) {
+	position: absolute;
+	top: 93px;
+	left: 760px;
+}
+
+.backround-pictures img:nth-of-type(3) {
+	position: absolute;
+	top: 766px;
+	left: 902px;
+}
+
+.backround-pictures img:nth-of-type(4) {
+	position: absolute;
+	top: 281px;
+	right: 40px;
+}
+
+/*pictures in hero section*/
+
+img[src*="app-icon-hero"] {
+	margin-top: 189px;
+}
+
+img[src*="iphone-hero"] {
+	float: right;
+	margin-top: 68px;
+	position: relative;
+}
+
+.iphone img + img {
+	position: absolute;
+	right: -80px;
+	bottom: 139px;
+}
+
+/*container*/
+
+.my-container {
+	margin: 0 auto;
+	max-width: 1170px;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+/*top-page navbar*/
+
+.row {
+	margin: 0;
+}
+
+img[src*="logo-hero"] {
+	float: left;
+	margin-top: 32px;
+}
+
+.menu-list {
+	margin-top: 32px;
+	float: right;
+}
+
+.menu-list > li {
+	margin-left: 50px;
+	display: inline;
+
+}
+
+.menu-list [href] {
+color: #fefefe;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.72px;
+text-decoration: none;
+}
+
+.menu-list li:last-of-type {
+	width: 140px;
+	height: 42px;
+	border-radius: 21px;
+	background-color: #ffffff;
+	padding: 10px 20px;
+} 
+
+.menu-list a[href$=".com"] {
+	color: #2ecc71;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 18px;
+	width: 140px;
+	height: 18px;
+	background-color: #ffffff;
+}
+
+/*headings and paragraphs in hero section*/
+
+.my-hero h1 {
+color: #f4f4f4;
+font-family: Roboto;
+font-size: 64px;
+font-weight: 300;
+line-height: 60px;
+margin-top: 60px;
+font-weight: 300;
+letter-spacing: 2.56px;
+margin-bottom: 26px;
+}
+
+.my-hero h1 > .better {font-family: Roboto;
+font-weight: 700;
+letter-spacing: 2.56px;
+}
+
+.my-hero .caption {
+width: 627px;
+height: 82px;
+color: #f4f4f4;
+font-family: Roboto;
+font-size: 18px;
+font-weight: 300;
+line-height: 32px;
+letter-spacing: 0.69px;
+margin-bottom: 0;
+}
+
+/*buttons in hero */
+
+.slogan-section button {
+	margin-top: 65px;
+	border-radius: 5px;
+}
+
+.slogan-section .app-store {
+	margin-right: 25px;
+}
